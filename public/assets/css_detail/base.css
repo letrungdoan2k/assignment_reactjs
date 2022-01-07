@@ -1,0 +1,24 @@
+:root{
+    --main-color: #E5101D;
+    --while-color: #fff;
+    --black-color: #000;
+    --out-color: #BC000B;
+    --login-color: #EFC2C4;
+    --orange-color: #F7941D;
+    --bgr-color: #F5F5F5;
+    --detail-color: #eee;
+    --ddd-color: #ddd;
+    --bbb-color: #bbb;
+    --footer-color: #232F3E;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}

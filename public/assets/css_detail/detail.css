@@ -1,0 +1,305 @@
+.content__detail-product{
+    background-color: var(--while-color);
+    padding: 2rem 0;
+    margin: 0 1.4rem;
+}
+
+.content__detail{
+    padding-top: 5rem;
+}
+
+.content__product-img-group{
+    display: flex;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.content__product-img-title-small{
+    width: 100%;
+    
+}
+.content__product-img-main-box{
+    position: relative;
+    padding-top: 90%;
+    height: 30rem;
+}
+.content__product-img-main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+.content__product-title-name,
+.content__product-title-brand,
+.content__product-title-price,
+.content__product-title-code{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.content__product-title-brand{
+    font-size: 2rem;
+}
+.content__product-title-price{
+    font-size: 1.5rem;
+}
+.price-note{
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+.content__product-title-code{
+    font-size: 1.5rem;
+}
+.code-note{
+    font-size: 2rem;
+}
+.content__product-title-quantity-box{
+    margin-top: 2rem;
+    position: relative;
+}
+.content__product-title-quantity-box::after{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0.1rem;
+    background-color: var(--login-color);
+    margin-top: 2rem;
+}
+.content__product-title-quantity-title{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+.content__product-title-quantity-input{
+    outline: none;
+    height: 3rem;
+    width: 4rem;
+}
+.content__product-title-btn{
+    display: inline-block;
+    margin-top: 4rem;
+    outline: none;
+    width: 20rem;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: var(--main-color);
+    border: none;
+    color: var(--while-color);
+    text-decoration: none;
+}
+.content__product-title-btn-txt, .content__product-title-btn > i{
+    font-size: 1.7rem;
+}
+.content__product-title-btn > i{
+    margin: 0 0.5rem 0 4.7rem;
+}
+.content__product-title-grift-event{
+    margin-top: 1rem;
+}
+.content__product-title-grift{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.content__product-title-grift-note{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+/* row-detail-title */
+.row-detail-title{
+    margin-top: 5rem;
+}
+.content__detail-group{
+    background-color: var(--while-color);
+    padding: 2rem 3rem;
+}
+.content__detail-header{
+    background-color: var(--detail-color);
+    padding: 1.5rem 0 1.5rem 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+
+}
+.content__detail-description, .content__detail-main-box{
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content__detail-title-name, .content__detail-title-des{
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 12rem;
+    color: var(--bbb-color);
+    margin: 2rem 0;
+    padding-left: 1rem;
+}
+.fix-name{
+    margin-bottom: 1rem;
+    padding: 0;
+}
+.content__detail-title-des{
+    margin: 0;
+    padding: 0;
+}
+.content__detail-main,.content__detail-main-box{
+    display: inline-block;
+    font-size: 1.7rem;
+}
+.content__detail-main + p{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    display: inline;
+}
+.content__detail-description  p, li, h2, h3{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    padding-left: 1.2rem;
+}
+/* sidebar product */
+.content__sidebar-prod-list-header{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.content__sidebar-prod-list-box{
+    display: flex;
+}
+.content__sidebar-prod-list{
+    list-style: none;
+    background-color: var(--while-color);
+    padding: 2rem 1rem;
+}
+.content__sidebar-prod-item{
+    height: 8rem;
+    margin: 2.3rem 0;
+}
+.content__sidebar-prod-item-box{
+    display: flex;
+    text-decoration: none;
+}
+.content__sidebar-prod-img{
+    width: 10rem;
+    height: 100%;
+}
+.content__sidebar-prod-item-sub{
+   margin-left: 1rem;
+}
+.content__sidebar-prod-name,.content__sidebar-prod-price{
+    font-size: 1.3rem;
+    color: var(--black-color);
+    display: block;
+}
+.content__sidebar-prod-name{
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 1rem 0 0.8rem 0;
+    font-weight: 600;
+}
+.content__sidebar-prod-brand{
+    display: inline-block;
+    font-size:1.1rem;
+    color: var(--black-color);
+    /* margin-top: 1rem; */
+}
+.content__sidebar-prod-item-box:hover .content__sidebar-prod-name{
+    color: var(--main-color);
+}
+/* comment */
+.content__cmt-header{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+.content__cmt-box-write, .content__cmt-box-print{
+    background-color: var(--detail-color);
+    padding: 2.5rem 1rem;
+}
+.content__cmt-form-box, .content__cmt-box-print{
+    display: flex;
+}
+.content__cmt-form-avatar{
+    width: 10%;
+    height: 9rem;
+    margin-right: 2rem;
+}
+.content__cmt-form-img{
+    width: 100%;
+    height: 100%;
+}
+.content__cmt-form-func{
+    width: 90%;
+    height: 10rem;
+}
+.content__cmt-user{
+  font-size: 1.5rem;
+  display: inline-block;
+  background-color: var(--while-color);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.content__cmt-form-txt{
+    border: 0.05rem solid var(--black-color);
+    width: 100%;
+    padding: 1.5rem;
+    height: 6rem;
+    font-size: 1.6rem;
+    text-align: left;
+}
+.content__cmt-form-txt:focus{
+    border: 0.05rem solid rgba(231, 76, 60,1.0);
+}
+.content__cmt-form-group{
+    text-align: right;
+}
+.content__cmt-form-ask{
+    font-size: 1.6rem;
+    margin-right: 2rem;
+}
+.content__cmt-form-btn{
+    outline: none;
+    padding: 0.7rem 1.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    color: var(--while-color);
+    background-color: var(--main-color);
+    border: none;
+}
+/* show comment */
+.box-print-comment{
+    margin-top: 1rem;
+}
+.content__cmt-box-print{
+    border-bottom: 0.1rem solid var(--bbb-color);
+}
+.content__cmt-form-info{
+    width: 87%;
+}
+.content__cmt-form-info-name{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: var(--black-color);
+    font-weight: 600;
+}
+.content__cmt-form-info-param{
+    font-size:1.7rem;
+    margin: 1rem 0;
+    height: 4.1rem;
+    width: 100%;
+    word-wrap: break-word;
+}
+.content__cmt-form-info-dele{
+    text-decoration: none;
+    font-size:1.4rem;
+    color: var(--black-color);
+    margin-left: 2rem;
+}
+.content__cmt-form-info-date{
+    font-size:1.4rem;
+    font-weight: 600;
+}
